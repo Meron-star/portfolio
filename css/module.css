@@ -1,0 +1,165 @@
+/* Image */
+
+.image {
+    display: inline-block;
+    border: 0;
+}
+
+    .image img {
+        display: block;
+        width: 100%;
+    }
+
+    .image.avatar48 {
+        width: 48px;
+        height: 48px;
+        background: #f00;
+    }
+
+        .image.avatar48 img {
+            width: 48px;
+            height: 48px;
+        }
+
+    .image.fit {
+        display: block;
+        width: 100%;
+    }
+
+    .image.featured {
+        display: block;
+        width: 100%;
+        margin: 0 0 2em 0;
+    }
+
+    .image.left {
+        float: left;
+        margin: 0 2em 2em 0;
+    }
+
+    .image.centered {
+        display: block;
+        margin: 0 0 2em 0;
+    }
+
+        .image.centered img {
+            margin: 0 auto;
+            width: auto;
+        }
+/* Icons */
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+    ul.icons li {
+        display: inline-block;
+        padding-left: 0;
+    }
+
+    ul.icons a {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        border: 0;
+    }
+/* Item */
+
+.item {
+    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+    .item header {
+        background: #fff;
+        margin: 0;
+        padding: 1em 0 1em 0;
+        font-size: 0.8em;
+    }
+
+        .item header h3 {
+            font-size: 1em;
+        }
+
+/* Icons */
+
+.icon {
+    text-decoration: none;
+}
+
+    .icon:before {
+        display: inline-block;
+        font-family: FontAwesome;
+        font-size: 1.25em;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .icon > .label {
+        display: none;
+    }
+
+    /* Main */
+
+
+
+    #main > section {
+        margin: 0;
+        overflow: hidden;
+        padding: 4em 0;
+        box-shadow: inset 0 1px 0 0 rgba(180, 56, 56, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+        text-align: center;
+        background-image: url("images/overlay.png");
+    }
+
+   
+
+    #main > section.dark {
+        color: rgb(240, 229, 229);
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+        #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+            color: inherit;
+        }
+
+        #main > section.dark strong {
+            color: rgb(236, 231, 231);
+            border-color: inherit;
+        }
+
+        #main > section.dark a {
+            color: #fff;
+            border-color: inherit;
+        }
+
+            #main > section.dark a:hover {
+                border-bottom-color: rgba(255, 255, 255, 0);
+            }
+           
+    
+
+    #main > section.one {
+        
+        background-image: url("../images/lake.jpg");
+    }
+
+    #main > section.two {
+        background-color: #d6dee6;
+    }
+
+    #main > section.three {
+        background-color: #aec8d8;
+    }
+
+    #main > section.four {
+        background-color: #90b8d3;
+    }
